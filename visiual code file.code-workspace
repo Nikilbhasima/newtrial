@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/Nikil/Desktop/visiual code file"
+		},
+		{
+			"path": "../OneDrive - Virinchi College"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"conio.h": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}
