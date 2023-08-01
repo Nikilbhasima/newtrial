@@ -1,0 +1,48 @@
+
+.parent{
+    margin: 5rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: black;
+   /* transition-duration: 1000ms;
+   transition-property: background-color,transform;
+   transition-timing-function: ease-out; */
+   /* transition-delay: 2s; */
+   animation: square 0.5s infinite;
+}
+/* .parent:hover{
+    transform: rotate(45deg);
+    background-color: blue;
+   
+} */
+@keyframes square {
+    0%{
+        background-color: orange;
+        /* border-radius: 25%; */
+        border: 1rem solid black;
+    }
+    25%{
+        transform: rotate(25deg);
+        background-color: black;
+        border-radius: 50%;
+        border: 1rem solid black;
+    }
+    50%{
+        transform: rotate(50deg);
+        background-color: brown;
+        border-radius: 50%;
+        border: 1rem solid black;
+    }
+    75%{
+        transform: rotate(75%);
+        background-color: blue;
+        border-radius: 75%;
+        border: 1rem solid black;
+    }
+    100%{
+        transform: rotate(100deg);
+        background-color: white;
+        border-radius: 100%;
+        border: 1rem solid black;
+    }
+}

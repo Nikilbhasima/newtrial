@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.first{
+    background-color: black;
+    height: 10rem;
+    width: 15rem;
+    margin: 0 auto;
+    z-index: 4;
+}
+.seconday{
+    background-color: aliceblue;
+    height: 10rem;
+    width: 10rem;
+    margin-top: -10rem;
+    margin-left: 2.5rem;
+    border-radius: 35%;
+    z-index: 3;
+}
+
+.third{
+    background-color: yellow;
+    height: 6rem;
+    width: 6rem;
+    margin-top: -8rem;
+    margin-left: 4.4rem;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.forth{
+    background-color: black;
+    width:4rem ;
+    height: 4rem;
+    border-radius: 100%;
+    margin-top: -5rem;
+    margin-left: 5.5rem;
+    z-index: 1;
+}

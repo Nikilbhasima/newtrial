@@ -1,0 +1,13 @@
+.container{
+    height: 50rem;
+    width: 50rem;
+    display: 50rem;
+    flex-direction:column;
+    gap: 2rem;
+}
+
+.child{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+}

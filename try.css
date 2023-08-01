@@ -33,12 +33,15 @@ p{
 }
 
 form{
+    
     font-size: 30px;
     color: black;
     border-width: 12px;
     padding: 20px;
     text-align: center;
 }
+    
+    
 
 .design{
     color: black;
